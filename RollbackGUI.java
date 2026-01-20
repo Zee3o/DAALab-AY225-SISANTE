@@ -3,14 +3,14 @@ import java.io.*;
 import java.util.ArrayList;
 import javax.swing.*;
 
-public class BubbleSortGUI extends JFrame {
+public class RollbackGUI extends JFrame {
 
     private JTextArea outputArea;
     private JButton loadButton;
     private JButton clearButton;
 
-    public BubbleSortGUI() {
-        setTitle("Bubble Sort (Descending) - File Dataset");
+    public RollbackGUI() {
+        setTitle("RollbackGUI (Descending) - File Dataset");
         setSize(600, 500);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
@@ -126,5 +126,5 @@ public class BubbleSortGUI extends JFrame {
     }
 
     public static void main(String[] args) {
-        SwingUtilities.invokeLater(() -> new BubbleSortGUI().setVisible(true));
+        SwingUtilities.invokeLater(() -> new RollbackGUI().setVisible(true));
     }
